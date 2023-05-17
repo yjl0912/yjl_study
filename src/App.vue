@@ -6,14 +6,16 @@
     </nav> -->
     <!-- <router-view/> -->
     <!-- <Table />
-    <TreeSelected /> -->
-    <Form />
+    <TreeSelected />
+    <Form /> -->
+    <Form2 />
   </div>
 </template>
 <script>
 import Table from './pages/tables/filter/table.vue';
 import TreeSelected from './pages/a-select/treeSelect.vue';
 import Form from './pages/a-form-model/form.vue';
+import Form2 from './pages/a-form-model/form2.vue';
 
 export default {
   name: '',
@@ -21,6 +23,7 @@ export default {
     Table,
     TreeSelected,
     Form,
+    Form2,
   }
 }
 </script>
