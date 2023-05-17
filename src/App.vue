@@ -5,18 +5,22 @@
       <router-link to="/about">About</router-link>
     </nav> -->
     <!-- <router-view/> -->
-    <Table />
-    <TreeSelected />
+    <!-- <Table />
+    <TreeSelected /> -->
+    <Form />
   </div>
 </template>
 <script>
 import Table from './pages/tables/filter/table.vue';
-import TreeSelected from './pages/a-select/treeSelect.vue'
+import TreeSelected from './pages/a-select/treeSelect.vue';
+import Form from './pages/a-form-model/form.vue';
+
 export default {
   name: '',
   components: {
     Table,
     TreeSelected,
+    Form,
   }
 }
 </script>
