@@ -1,14 +1,11 @@
 <template>
   <div id="app">
-    <!-- <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav> -->
     <!-- <router-view/> -->
     <!-- <Table />
     <TreeSelected />
     <Form /> -->
-    <Form2 />
+    <!-- <Form2 /> -->
+    <Form3 />
   </div>
 </template>
 <script>
@@ -16,6 +13,7 @@ import Table from './pages/tables/filter/table.vue';
 import TreeSelected from './pages/a-select/treeSelect.vue';
 import Form from './pages/a-form-model/form.vue';
 import Form2 from './pages/a-form-model/form2.vue';
+import Form3 from './pages/a-form-model/form3.vue';
 
 export default {
   name: '',
@@ -24,6 +22,7 @@ export default {
     TreeSelected,
     Form,
     Form2,
+    Form3,
   }
 }
 </script>
