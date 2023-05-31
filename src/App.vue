@@ -8,7 +8,8 @@
     <!-- <Form3 /> -->
     <!-- <Father /> -->
     <!-- <ExtendsDemo /> -->
-    <KeyUpdateComponent />
+    <!-- <KeyUpdateComponent /> -->
+    <SlotAndCustomCell />
   </div>
 </template>
 <script>
@@ -20,6 +21,7 @@ import Form3 from './pages/a-form-model/form3.vue';
 import Father from './pages/others/father.vue';
 import ExtendsDemo from './pages/others/extends/index.vue';
 import KeyUpdateComponent from './pages/others/keyUpdateComponent/index.vue';
+import SlotAndCustomCell from './pages/tables/slotAndCustomCell/table.vue';
 
 export default {
   name: '',
@@ -32,6 +34,7 @@ export default {
     Father,
     ExtendsDemo,
     KeyUpdateComponent,
+    SlotAndCustomCell,
   }
 }
 </script>
