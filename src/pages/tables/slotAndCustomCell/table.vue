@@ -15,6 +15,10 @@
         <span style="color:#bfa">{{text}}</span>
         <span style="color:orange">{{row}}</span>
       </template>
+    <!-- 插槽自定义表格某列单元格td内容 -->
+      <template #customAddressContent>
+        <span>123</span>
+      </template>
     </a-table>
   </div>
 </template>
