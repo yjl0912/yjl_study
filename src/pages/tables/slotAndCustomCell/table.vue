@@ -26,11 +26,30 @@ import { columns } from './columns.js';
 export default {
   data() {
     return {
-      tableData,
+      tableData: this.addRowSpan(),
       columns,
     }
-  }
-}
+  },
+  methods: {
+    // 处理表格数据,生成行合并的rowSpan,并添加到表格数据中。
+    addRowSpan() {
+      return tableData.map(item=>{
+        let rowSpan = null;
+        if (item.id === 1) {
+          rowSpan = 2;
+        } else if (item.id === 2) {
+          rowSpan = 0;
+        } else if (item.id === 3) {
+          rowSpan = 1;
+        }
+        return {
+          ...item,
+          rowSpan,
+        };
+      });
+    },
+  },
+};
 </script>
 
 <style lang="less" scoped>
