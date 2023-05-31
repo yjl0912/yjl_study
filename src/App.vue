@@ -7,7 +7,8 @@
     <!-- <Form2 /> -->
     <!-- <Form3 /> -->
     <!-- <Father /> -->
-    <ExtendsDemo />
+    <!-- <ExtendsDemo /> -->
+    <KeyUpdateComponent />
   </div>
 </template>
 <script>
@@ -18,6 +19,7 @@ import Form2 from './pages/a-form-model/form2.vue';
 import Form3 from './pages/a-form-model/form3.vue';
 import Father from './pages/others/father.vue';
 import ExtendsDemo from './pages/others/extends/index.vue';
+import KeyUpdateComponent from './pages/others/keyUpdateComponent/index.vue';
 
 export default {
   name: '',
@@ -29,6 +31,7 @@ export default {
     Form3,
     Father,
     ExtendsDemo,
+    KeyUpdateComponent,
   }
 }
 </script>
