@@ -6,7 +6,8 @@
     <Form /> -->
     <!-- <Form2 /> -->
     <!-- <Form3 /> -->
-    <Father />
+    <!-- <Father /> -->
+    <ExtendsDemo />
   </div>
 </template>
 <script>
@@ -16,6 +17,7 @@ import Form from './pages/a-form-model/form.vue';
 import Form2 from './pages/a-form-model/form2.vue';
 import Form3 from './pages/a-form-model/form3.vue';
 import Father from './pages/others/father.vue';
+import ExtendsDemo from './pages/others/extends/index.vue';
 
 export default {
   name: '',
@@ -26,6 +28,7 @@ export default {
     Form2,
     Form3,
     Father,
+    ExtendsDemo,
   }
 }
 </script>
