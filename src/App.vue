@@ -5,7 +5,8 @@
     <TreeSelected />
     <Form /> -->
     <!-- <Form2 /> -->
-    <Form3 />
+    <!-- <Form3 /> -->
+    <Father />
   </div>
 </template>
 <script>
@@ -14,6 +15,7 @@ import TreeSelected from './pages/a-select/treeSelect.vue';
 import Form from './pages/a-form-model/form.vue';
 import Form2 from './pages/a-form-model/form2.vue';
 import Form3 from './pages/a-form-model/form3.vue';
+import Father from './pages/others/father.vue';
 
 export default {
   name: '',
@@ -23,6 +25,7 @@ export default {
     Form,
     Form2,
     Form3,
+    Father,
   }
 }
 </script>
