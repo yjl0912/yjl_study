@@ -9,7 +9,8 @@
     <!-- <Father /> -->
     <!-- <ExtendsDemo /> -->
     <!-- <KeyUpdateComponent /> -->
-    <SlotAndCustomCell />
+    <!-- <SlotAndCustomCell /> -->
+    <CustomTitleAndContent />
   </div>
 </template>
 <script>
@@ -22,6 +23,7 @@ import Father from './pages/others/father.vue';
 import ExtendsDemo from './pages/others/extends/index.vue';
 import KeyUpdateComponent from './pages/others/keyUpdateComponent/index.vue';
 import SlotAndCustomCell from './pages/tables/slotAndCustomCell/table.vue';
+import CustomTitleAndContent from './pages/tables/customTitleAndContent/table.vue';
 
 export default {
   name: '',
@@ -35,6 +37,7 @@ export default {
     ExtendsDemo,
     KeyUpdateComponent,
     SlotAndCustomCell,
+    CustomTitleAndContent
   }
 }
 </script>
