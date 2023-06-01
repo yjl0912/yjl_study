@@ -10,7 +10,8 @@
     <!-- <ExtendsDemo /> -->
     <!-- <KeyUpdateComponent /> -->
     <!-- <SlotAndCustomCell /> -->
-    <CustomTitleAndContent />
+    <!-- <CustomTitleAndContent /> -->
+    <ThreeForEach />
   </div>
 </template>
 <script>
@@ -24,6 +25,7 @@ import ExtendsDemo from './pages/others/extends/index.vue';
 import KeyUpdateComponent from './pages/others/keyUpdateComponent/index.vue';
 import SlotAndCustomCell from './pages/tables/slotAndCustomCell/table.vue';
 import CustomTitleAndContent from './pages/tables/customTitleAndContent/table.vue';
+import ThreeForEach from './pages/others/threeForEach/index.vue';
 
 export default {
   name: '',
@@ -37,7 +39,8 @@ export default {
     ExtendsDemo,
     KeyUpdateComponent,
     SlotAndCustomCell,
-    CustomTitleAndContent
+    CustomTitleAndContent,
+    ThreeForEach,
   }
 }
 </script>
