@@ -11,7 +11,8 @@
     <!-- <KeyUpdateComponent /> -->
     <!-- <SlotAndCustomCell /> -->
     <!-- <CustomTitleAndContent /> -->
-    <ThreeForEach />
+    <!-- <ThreeForEach /> -->
+    <CustomColStyle />
   </div>
 </template>
 <script>
@@ -26,6 +27,7 @@ import KeyUpdateComponent from './pages/others/keyUpdateComponent/index.vue';
 import SlotAndCustomCell from './pages/tables/slotAndCustomCell/table.vue';
 import CustomTitleAndContent from './pages/tables/customTitleAndContent/table.vue';
 import ThreeForEach from './pages/others/threeForEach/index.vue';
+import CustomColStyle from './pages/tables/customColStyle/table.vue';
 
 export default {
   name: '',
@@ -41,6 +43,7 @@ export default {
     SlotAndCustomCell,
     CustomTitleAndContent,
     ThreeForEach,
+    CustomColStyle,
   }
 }
 </script>
