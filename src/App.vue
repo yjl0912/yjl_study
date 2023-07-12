@@ -12,7 +12,8 @@
     <!-- <SlotAndCustomCell /> -->
     <!-- <CustomTitleAndContent /> -->
     <!-- <ThreeForEach /> -->
-    <CustomColStyle />
+    <!-- <CustomColStyle /> -->
+    <TableFooter />
   </div>
 </template>
 <script>
@@ -28,6 +29,7 @@ import SlotAndCustomCell from './pages/tables/slotAndCustomCell/table.vue';
 import CustomTitleAndContent from './pages/tables/customTitleAndContent/table.vue';
 import ThreeForEach from './pages/others/threeForEach/index.vue';
 import CustomColStyle from './pages/tables/customColStyle/table.vue';
+import TableFooter from './pages/tables/tableFooter/table.vue'
 
 export default {
   name: '',
@@ -44,6 +46,7 @@ export default {
     CustomTitleAndContent,
     ThreeForEach,
     CustomColStyle,
+    TableFooter,
   }
 }
 </script>
