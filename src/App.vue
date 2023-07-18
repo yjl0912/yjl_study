@@ -13,7 +13,8 @@
     <!-- <CustomTitleAndContent /> -->
     <!-- <ThreeForEach /> -->
     <!-- <CustomColStyle /> -->
-    <TableFooter />
+    <!-- <TableFooter /> -->
+    <TwoEchartsInOneCanvas />
   </div>
 </template>
 <script>
@@ -29,7 +30,8 @@ import SlotAndCustomCell from './pages/tables/slotAndCustomCell/table.vue';
 import CustomTitleAndContent from './pages/tables/customTitleAndContent/table.vue';
 import ThreeForEach from './pages/others/threeForEach/index.vue';
 import CustomColStyle from './pages/tables/customColStyle/table.vue';
-import TableFooter from './pages/tables/tableFooter/table.vue'
+import TableFooter from './pages/tables/tableFooter/table.vue';
+import TwoEchartsInOneCanvas from './pages/echarts/twoEchartsInOneCanvas/index.vue';
 
 export default {
   name: '',
@@ -47,6 +49,7 @@ export default {
     ThreeForEach,
     CustomColStyle,
     TableFooter,
+    TwoEchartsInOneCanvas,
   }
 }
 </script>
