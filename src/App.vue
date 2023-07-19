@@ -14,7 +14,8 @@
     <!-- <ThreeForEach /> -->
     <!-- <CustomColStyle /> -->
     <!-- <TableFooter /> -->
-    <TwoEchartsInOneCanvas />
+    <!-- <TwoEchartsInOneCanvas /> -->
+    <TwoYearEcharts />
   </div>
 </template>
 <script>
@@ -32,6 +33,7 @@ import ThreeForEach from './pages/others/threeForEach/index.vue';
 import CustomColStyle from './pages/tables/customColStyle/table.vue';
 import TableFooter from './pages/tables/tableFooter/table.vue';
 import TwoEchartsInOneCanvas from './pages/echarts/twoEchartsInOneCanvas/index.vue';
+import TwoYearEcharts from './pages/echarts/twoYearEcharts/index.vue';
 
 export default {
   name: '',
@@ -50,6 +52,7 @@ export default {
     CustomColStyle,
     TableFooter,
     TwoEchartsInOneCanvas,
+    TwoYearEcharts,
   }
 }
 </script>
