@@ -15,7 +15,8 @@
     <!-- <CustomColStyle /> -->
     <!-- <TableFooter /> -->
     <!-- <TwoEchartsInOneCanvas /> -->
-    <TwoYearEcharts />
+    <!-- <TwoYearEcharts /> -->
+    <LastDashed />
   </div>
 </template>
 <script>
@@ -34,6 +35,7 @@ import CustomColStyle from './pages/tables/customColStyle/table.vue';
 import TableFooter from './pages/tables/tableFooter/table.vue';
 import TwoEchartsInOneCanvas from './pages/echarts/twoEchartsInOneCanvas/index.vue';
 import TwoYearEcharts from './pages/echarts/twoYearEcharts/index.vue';
+import LastDashed from './pages/echarts/lastDashed/index.vue';
 
 export default {
   name: '',
@@ -53,6 +55,7 @@ export default {
     TableFooter,
     TwoEchartsInOneCanvas,
     TwoYearEcharts,
+    LastDashed,
   }
 }
 </script>
