@@ -16,7 +16,8 @@
     <!-- <TableFooter /> -->
     <!-- <TwoEchartsInOneCanvas /> -->
     <!-- <TwoYearEcharts /> -->
-    <LastDashed />
+    <!-- <LastDashed /> -->
+    <SendThis />
   </div>
 </template>
 <script>
@@ -36,6 +37,7 @@ import TableFooter from './pages/tables/tableFooter/table.vue';
 import TwoEchartsInOneCanvas from './pages/echarts/twoEchartsInOneCanvas/index.vue';
 import TwoYearEcharts from './pages/echarts/twoYearEcharts/index.vue';
 import LastDashed from './pages/echarts/lastDashed/index.vue';
+import SendThis from './pages/others/sendThis/index.vue';
 
 export default {
   name: '',
@@ -56,6 +58,7 @@ export default {
     TwoEchartsInOneCanvas,
     TwoYearEcharts,
     LastDashed,
+    SendThis,
   }
 }
 </script>
