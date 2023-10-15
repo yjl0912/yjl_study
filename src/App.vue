@@ -17,7 +17,8 @@
     <!-- <TwoEchartsInOneCanvas /> -->
     <!-- <TwoYearEcharts /> -->
     <!-- <LastDashed /> -->
-    <SendThis />
+    <!-- <SendThis /> -->
+    <CustomTab />
   </div>
 </template>
 <script>
@@ -38,6 +39,7 @@ import TwoEchartsInOneCanvas from './pages/echarts/twoEchartsInOneCanvas/index.v
 import TwoYearEcharts from './pages/echarts/twoYearEcharts/index.vue';
 import LastDashed from './pages/echarts/lastDashed/index.vue';
 import SendThis from './pages/others/sendThis/index.vue';
+import CustomTab from './pages/others/customTab/customTab.vue';
 
 export default {
   name: '',
@@ -59,6 +61,7 @@ export default {
     TwoYearEcharts,
     LastDashed,
     SendThis,
+    CustomTab,
   }
 }
 </script>
