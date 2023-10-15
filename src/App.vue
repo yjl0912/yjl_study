@@ -19,7 +19,8 @@
     <!-- <LastDashed /> -->
     <!-- <SendThis /> -->
     <!-- <CustomTab /> -->
-    <CustomTabHasContent />
+    <!-- <CustomTabHasContent /> -->
+    <AntdvTabsOnlyTitle />
   </div>
 </template>
 <script>
@@ -42,6 +43,7 @@ import LastDashed from './pages/echarts/lastDashed/index.vue';
 import SendThis from './pages/others/sendThis/index.vue';
 import CustomTab from './pages/others/customTab/customTab.vue';
 import CustomTabHasContent from './pages/others/customTab/customTabHasContent.vue';
+import AntdvTabsOnlyTitle from './pages/others/customTab/antdvTabsOnlyTitle.vue';
 
 export default {
   name: '',
@@ -65,6 +67,7 @@ export default {
     SendThis,
     CustomTab,
     CustomTabHasContent,
+    AntdvTabsOnlyTitle,
   }
 }
 </script>
