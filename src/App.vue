@@ -18,7 +18,8 @@
     <!-- <TwoYearEcharts /> -->
     <!-- <LastDashed /> -->
     <!-- <SendThis /> -->
-    <CustomTab />
+    <!-- <CustomTab /> -->
+    <CustomTabHasContent />
   </div>
 </template>
 <script>
@@ -40,6 +41,7 @@ import TwoYearEcharts from './pages/echarts/twoYearEcharts/index.vue';
 import LastDashed from './pages/echarts/lastDashed/index.vue';
 import SendThis from './pages/others/sendThis/index.vue';
 import CustomTab from './pages/others/customTab/customTab.vue';
+import CustomTabHasContent from './pages/others/customTab/customTabHasContent.vue';
 
 export default {
   name: '',
@@ -62,6 +64,7 @@ export default {
     LastDashed,
     SendThis,
     CustomTab,
+    CustomTabHasContent,
   }
 }
 </script>
